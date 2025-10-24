@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Study Webpage</title>
+
+	<link rel="stylesheet" href="styles/styles.css">
+	<style>
+		body
+		{
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			background-color: #333;
+			color: #fff;
+			font-size: 20px;
+		}
+
+		#main-title
+		{
+			text-align: center;
+			font-weight: bold;
+			font-size: 28px;
+		}
+
+		#flex-container
+		{
+			display: flex;
+			justify-content: center;
+			gap: 20px;
+			min-height: 25px;
+			/* background-color: gray; */
+		}
+
+		.flex-item
+		{
+			/* background-color: navy; */
+			padding: 5px;
+			color: #fff;
+			background-color: gray;
+			border-radius: 3px;
+			border: solid hotpink 1px;
+		}
+
+		.plane-text-color
+		{
+			color: #fff;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<p id="main-title">Flex Box Model Demo</p>
+
+	<!-- flex-container::start -->
+	<div id="flex-container">
+		<div class="flex-item">
+			<a href="/index.html" class="plane-text-color">Home</a>
+		</div>
+		<div class="flex-item">
+			<a href="https://vu.edu.pk" class="plane-text-color">VU</a>
+		</div>
+		<div class="flex-item">
+			<a href="https://vulms.vu.edu.pk" class="plane-text-color">VULMS</a>
+		</div>
+		<div class="flex-item">
+			<a href="https://datesheet.vu.edu.pk" class="plane-text-color">Datesheet</a>
+		</div>
+		<div class="flex-item">
+			<a href="https://campus.vu.edu.pk" class="plane-text-color">Campus Announcements</a>
+		</div>
+	</div>
+	<!-- flex-container::end -->
+
+	<p style="text-align: center; margin-top: 25px;">This is a simple webpage, that i have designed for myself.</p>
+
+</body>
+</html>
